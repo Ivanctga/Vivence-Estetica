@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vivence Estética Avançada - Tratamentos faciais e corporais premium. Revele sua melhor versão com tecnologia de ponta e cuidado exclusivo.">
+    <meta name="keywords"
+        content="estética, clínica de estética, harmonização facial, limpeza de pele, drenagem linfática, beleza premium">
+    <meta name="author" content="Vivence Estética">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vivence Estética Avançada | Beleza e Bem-estar Premium">
+    <meta property="og:description"
+        content="Revele sua melhor versão com tratamentos de alta tecnologia e atendimento personalizado.">
+    <meta property="og:image" content="assets/img/og-image.jpg">
+
+    <title>Vivence Estética Avançada | Experiência Premium em Beleza</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container header__container">
+            <a href="#" class="logo" aria-label="Vivence Home">
+                <img src="assets/img/logo.png" alt="Logo Vivence" class="logo__img">
+                <div class="logo__content">
+                    <span class="logo__text">Vivence</span>
+                    <span class="logo__subtext">Estética Avançada</span>
+                </div>
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#resultados" class="nav__link">Resultados</a></li>
+                    <li class="nav__item"><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+                <a href="#contato" class="btn btn--primary btn--header">Agendar Avaliação</a>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir Menu">
+                <span class="nav-toggle__burger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero__bg">
+                <div class="hero__bg-shape hero__bg-shape--1"></div>
+                <div class="hero__bg-shape hero__bg-shape--2"></div>
+                <div class="hero__bg-overlay"></div>
+            </div>
+
+            <div class="container hero__container">
+                <div class="hero__content reveal">
+                    <div class="hero__badge reveal" data-delay="100">
+                        <span class="hero__badge-icon">✨</span>
+                        <span class="hero__badge-text">Excelência em Estética Avançada</span>
+                    </div>
+
+                    <h1 class="hero__title reveal" data-delay="200">
+                        Sua beleza elevada ao <span class="highlight-alt">estado de arte</span>
+                    </h1>
+
+                    <p class="hero__description reveal" data-delay="300">
+                        Onde a ciência da pele encontra o luxo absoluto. Protocolos exclusivos desenhados para revelar
+                        sua versão mais radiante e autêntica.
+                    </p>
+
+                    <div class="hero__actions reveal" data-delay="400">
+                        <a href="#contato" class="btn btn--primary btn--lg">Agendar Minha Experiência</a>
+                        <a href="#servicos" class="btn btn--ghost btn--lg">Explorar Tratamentos</a>
+                    </div>
+
+                    <div class="hero__metrics reveal" data-delay="500">
+                        <div class="metric">
+                            <span class="metric__number">12+</span>
+                            <span class="metric__label">Anos de Expertise</span>
+                        </div>
+                        <div class="metric__divider"></div>
+                        <div class="metric">
+                            <span class="metric__number">5k+</span>
+                            <span class="metric__label">Vidas Transformadas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual reveal" data-delay="300">
+                    <div class="hero__image-wrapper">
+                        <div class="hero__image-main">
+                            <img src="assets/img/hero.jpg" alt="Beleza Radiante" class="hero__img">
+                        </div>
+
+                        <!-- Floating Glass Cards -->
+                        <div class="floating-card floating-card--1">
+                            <div class="floating-card__icon"><i class="fas fa-certificate"></i></div>
+                            <div class="floating-card__content">
+                                <strong>Qualidade Premium</strong>
+                                <span>Tecnologia de Ponta</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-card floating-card--2">
+                            <div class="floating-card__icon"><i class="fas fa-heart"></i></div>
+                            <div class="floating-card__content">
+                                <strong>Cuidado Único</strong>
+                                <span>Personalização Total</span>
+                            </div>
+                        </div>
+
+                        <!-- Decorative Blobs -->
+                        <div class="hero__decoration hero__decoration--1"></div>
+                        <div class="hero__decoration hero__decoration--2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">Descubra</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="sobre" class="about section">
+            <div class="container about__grid">
+                <div class="about__image-wrapper reveal reveal--left">
+                    <img src="assets/img/sobre.jpg" alt="Nossa clínica premium" class="about__img">
+                    <div class="about__stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="12">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Anos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5000">0</span>
+                            <span class="stat-label">Clientes</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+                            <span class="stat-label">Satisfação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__content reveal reveal--right">
+                    <span class="eyebrow">SOBRE NÓS</span>
+                    <h2 class="section__title">Onde Ciência e Sofisticação Encontram a Sua Beleza Natural</h2>
+                    <p class="section__description">
+                        Na Vivence, acreditamos que a verdadeira beleza nasce do equilíbrio entre saúde e autoestima.
+                        Nossa missão é proporcionar resultados extraordinários através de uma abordagem científica e
+                        personalizada.
+                    </p>
+                    <p class="section__description">
+                        Cada protocolo é desenvolvido individualmente, respeitando as características únicas de cada
+                        pele e corpo, garantindo uma experiência luxuosa e transformadora.
+                    </p>
+                    <ul class="about__list">
+                        <li><i class="fas fa-user-md"></i> Equipe médica certificada</li>
+                        <li><i class="fas fa-microscope"></i> Tecnologia de última geração</li>
+                        <li><i class="fas fa-leaf"></i> Protocolos exclusivos</li>
+                        <li><i class="fas fa-gem"></i> Ambiente premium e acolhedor</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços Section -->
+        <section id="servicos" class="services section">
+            <div class="container">
+                <div class="section__header reveal">
+                    <span class="eyebrow">NOSSOS TRATAMENTOS</span>
+                    <h2 class="section__title">Tratamentos Sob Medida para a Sua Beleza</h2>
+                </div>
+
+                <div class="services__grid">
+                    <!-- Card 1 -->
+                    <article class="service-card reveal">
+                        <div class="service-card__img-container">
+                            <img src="assets/img/service1.jpg"
+                                alt="Limpeza de Pele Profunda" class="service-card__img">
+                        </div>
+                        <div class="service-card__content">
+                            <i class="fas fa-spa service-card__icon"></i>
+                            <h3 class="service-card__title">Limpeza de Pele Profunda</h3>
+                            <p class="service-card__text">Remoção de impurezas e revitalização celular para uma pele
+                                radiante.</p>
+                            <a href="#contato" class="service-card__link">Saiba mais <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="service-card reveal">
+                        <div class="service-card__img-container">
+                            <img src="assets/img/service2.jpg"
+                                alt="Harmonização Facial" class="service-card__img">
+                        </div>
+                        <div class="service-card__content">
+                            <i class="fas fa-magic service-card__icon"></i>
+                            <h3 class="service-card__title">Harmonização Facial</h3>
+                            <p class="service-card__text">Realce seus traços naturais com equilíbrio e naturalidade.</p>
+                            <a href="#contato" class="service-card__link">Saiba mais <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="service-card reveal">
+                        <div class="service-card__img-container">
+                            <img src="assets/img/service3.jpg"
+                                alt="Drenagem Linfática" class="service-card__img">
+                        </div>
+                        <div class="service-card__content">
+                            <i class="fas fa-water service-card__icon"></i>
+                            <h3 class="service-card__title">Drenagem Linfática</h3>
+                            <p class="service-card__text">Redução de edemas e melhora da circulação com técnicas
+                                exclusivas.</p>
+                            <a href="#contato" class="service-card__link">Saiba mais <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="service-card reveal">
+                        <div class="service-card__img-container">
+                            <img src="assets/img/service4.jpg"
+                                alt="Peeling Químico" class="service-card__img">
+                        </div>
+                        <div class="service-card__content">
+                            <i class="fas fa-vial service-card__icon"></i>
+                            <h3 class="service-card__title">Peeling Químico</h3>
+                            <p class="service-card__text">Renovação profunda da pele para tratar manchas e linhas finas.
+                            </p>
+                            <a href="#contato" class="service-card__link">Saiba mais <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="service-card reveal">
+                        <div class="service-card__img-container">
+                            <img src="assets/img/service5.jpg"
+                                alt="Radiofrequência" class="service-card__img">
+                        </div>
+                        <div class="service-card__content">
+                            <i class="fas fa-bolt service-card__icon"></i>
+                            <h3 class="service-card__title">Radiofrequência</h3>
+                            <p class="service-card__text">Estimule o colágeno e combata a flacidez com tecnologia
+                                avançada.</p>
+                            <a href="#contato" class="service-card__link">Saiba mais <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Card 6 -->
+                    <article class="service-card reveal">
+                        <div class="service-card__img-container">
+                            <img src="assets/img/service6.jpg"
+                                alt="Massagem Modeladora" class="service-card__img">
+                        </div>
+                        <div class="service-card__content">
+                            <i class="fas fa-hand-sparkles service-card__icon"></i>
+                            <h3 class="service-card__title">Massagem Modeladora</h3>
+                            <p class="service-card__text">Redução de medidas e contorno corporal personalizado.</p>
+                            <a href="#contato" class="service-card__link">Saiba mais <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resultados Section -->
+        <section id="resultados" class="results section">
+            <div class="container">
+                <div class="section__header reveal">
+                    <span class="eyebrow">PROVA SOCIAL</span>
+                    <h2 class="section__title">Resultados que Falam por Si</h2>
+                </div>
+
+                <div class="results__grid reveal">
+                    <div class="result-item">
+                        <img src="assets/img/results1.jpg"
+                            alt="Resultado de Harmonização Facial" class="result-item__img">
+                        <div class="result-item__badge">ANTES / DEPOIS</div>
+                        <div class="result-item__overlay">
+                            <span>Harmonização Facial</span>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <img src="assets/img/results2.jpg"
+                            alt="Resultado de Limpeza de Pele" class="result-item__img">
+                        <div class="result-item__badge">ANTES / DEPOIS</div>
+                        <div class="result-item__overlay">
+                            <span>Limpeza de Pele Profunda</span>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <img src="assets/img/results3.jpg"
+                            alt="Resultado de Tratamento Corporal" class="result-item__img">
+                        <div class="result-item__badge">ANTES / DEPOIS</div>
+                        <div class="result-item__overlay">
+                            <span>Radiofrequência Corporal</span>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <img src="assets/img/results4.jpg"
+                            alt="Resultado de Peeling" class="result-item__img">
+                        <div class="result-item__badge">ANTES / DEPOIS</div>
+                        <div class="result-item__overlay">
+                            <span>Peeling Químico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos Section -->
+        <section id="depoimentos" class="testimonials section">
+            <div class="container">
+                <div class="section__header reveal">
+                    <span class="eyebrow">DEPOIMENTOS</span>
+                    <h2 class="section__title">Histórias Reais de Transformação</h2>
+                </div>
+
+                <div class="testimonials__carousel-wrapper reveal">
+                    <div class="testimonials__carousel" id="testimonials-carousel">
+                        <!-- Depoimento 1 -->
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left testimonial-card__quote"></i>
+                            <p class="testimonial-card__text">"A Vivence mudou minha relação com o espelho. O
+                                atendimento é impecável e os resultados superaram todas as minhas expectativas. Me sinto
+                                muito mais confiante!"</p>
+                            <div class="testimonial-card__footer">
+                                <img src="assets/img/depo1.jpg" alt="Juliana Silva"
+                                    class="testimonial-card__avatar">
+                                <div class="testimonial-card__info">
+                                    <h4 class="testimonial-card__name">Juliana Silva</h4>
+                                    <span class="testimonial-card__treatment">Harmonização Facial</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card__stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 2 -->
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left testimonial-card__quote"></i>
+                            <p class="testimonial-card__text">"O ambiente é maravilhoso e a equipe extremamente
+                                profissional. Fiz o protocolo de radiofrequência e os resultados no contorno corporal
+                                são visíveis. Recomendo muito!"</p>
+                            <div class="testimonial-card__footer">
+                                <img src="assets/img/depo2.jpg" alt="Mariana Costa"
+                                    class="testimonial-card__avatar">
+                                <div class="testimonial-card__info">
+                                    <h4 class="testimonial-card__name">Mariana Costa</h4>
+                                    <span class="testimonial-card__treatment">Radiofrequência</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card__stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 3 -->
+                        <div class="testimonial-card">
+                            <i class="fas fa-quote-left testimonial-card__quote"></i>
+                            <p class="testimonial-card__text">"Melhor clínica que já frequentei. A limpeza de pele é
+                                realmente profunda e cuidadosa. Saí de lá me sentindo renovada e com a pele iluminada.
+                                Experiência 5 estrelas!"</p>
+                            <div class="testimonial-card__footer">
+                                <img src="assets/img/depo3.jpg" alt="Beatriz Santos"
+                                    class="testimonial-card__avatar">
+                                <div class="testimonial-card__info">
+                                    <h4 class="testimonial-card__name">Beatriz Santos</h4>
+                                    <span class="testimonial-card__treatment">Limpeza de Pele</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card__stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-nav">
+                        <button class="carousel-btn prev" id="prev-btn" aria-label="Anterior"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <div class="carousel-dots" id="carousel-dots"></div>
+                        <button class="carousel-btn next" id="next-btn" aria-label="Próximo"><i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-banner section">
+            <div class="container">
+                <div class="cta-banner__content reveal">
+                    <h2 class="cta-banner__title">Pronta para revelar sua beleza?</h2>
+                    <p class="cta-banner__text">Apenas 10 vagas para avaliação gratuita este mês. Não perca a
+                        oportunidade de transformar sua autoestima.</p>
+                    <a href="#contato" class="btn btn--white">Garantir Minha Vaga</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="contact section">
+            <div class="container about__grid">
+                <div class="contact__info reveal reveal--left">
+                    <span class="eyebrow">CONTATO</span>
+                    <h2 class="section__title">Fale Conosco</h2>
+                    <p class="section__description">Estamos prontos para atender você e tirar todas as suas dúvidas
+                        sobre nossos procedimentos.</p>
+
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Av. das Américas, 5000 - Barra da Tijuca, Rio de Janeiro - RJ</p>
+                            </div>
+                        </li>
+                        <li class="contact__item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(21) 3344-5566</p>
+                            </div>
+                        </li>
+                        <li class="contact__item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>(21) 98877-6655</p>
+                            </div>
+                        </li>
+                        <li class="contact__item">
+                            <i class="far fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>contato@vivenceestetica.com.br</p>
+                            </div>
+                        </li>
+                        <li class="contact__item">
+                            <i class="far fa-clock"></i>
+                            <div>
+                                <h4>Horário</h4>
+                                <p>Segunda a Sexta: 09h às 20h<br>Sábado: 09h às 14h</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="contact__map-placeholder">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.697920703816!2d-43.34404012468536!3d-22.997203279198642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd0a108a8b139%3A0x367e008d5336f3!2sAv.%20das%20Am%C3%A9ricas%2C%205000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022640-102!5e0!3m2!1spt-BR!2sbr!4v1715615887000!5m2!1spt-BR!2sbr" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização da Vivence Estética">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="contact__form-container reveal reveal--right">
+                    <form id="contact-form" class="contact__form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" placeholder="Como deseja ser chamada?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">WhatsApp *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Tratamento de Interesse</label>
+                            <select id="service" name="service">
+                                <option value="" disabled selected>Selecione um tratamento</option>
+                                <option value="limpeza-pele">Limpeza de Pele</option>
+                                <option value="harmonizacao">Harmonização Facial</option>
+                                <option value="drenagem">Drenagem Linfática</option>
+                                <option value="peeling">Peeling Químico</option>
+                                <option value="radiofrequencia">Radiofrequência</option>
+                                <option value="modeladora">Massagem Modeladora</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem (Opcional)</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Conte-nos um pouco sobre seus objetivos..."></textarea>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">Concordo com a Política de Privacidade e o processamento dos meus
+                                dados.</label>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Solicitar Agendamento</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a href="#" class="logo">
+                    <span class="logo__text">Vivence</span>
+                </a>
+                <p class="footer__description">
+                    Referência em estética avançada e bem-estar. Transformando vidas através do cuidado e da autoestima.
+                </p>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__title">Links Rápidos</h4>
+                <ul class="footer__list">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__title">Tratamentos</h4>
+                <ul class="footer__list">
+                    <li><a href="#servicos">Limpeza de Pele</a></li>
+                    <li><a href="#servicos">Harmonização Facial</a></li>
+                    <li><a href="#servicos">Drenagem Linfática</a></li>
+                    <li><a href="#servicos">Peeling Químico</a></li>
+                    <li><a href="#servicos">Radiofrequência</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__title">Contato</h4>
+                <ul class="footer__list footer__list--contact">
+                    <li><i class="fas fa-map-marker-alt"></i> Av. das Américas, 5000 - Barra da Tijuca, RJ</li>
+                    <li><i class="fas fa-phone-alt"></i> (21) 3344-5566</li>
+                    <li><i class="far fa-envelope"></i> contato@vivenceestetica.com.br</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer__bottom">
+            <p>&copy; 2026 Vivence Estética Avançada. Todos os direitos reservados.</p>
+            <div class="footer__bottom-links">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+                <span>Desenvolvido com 💛</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5521988776655" class="whatsapp-float" target="_blank" aria-label="Conversar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top -->
+    <button id="scroll-top" class="scroll-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Success -->
+    <div id="toast" class="toast">
+        <div class="toast__content">
+            <i class="fas fa-check-circle"></i>
+            <p>Mensagem enviada com sucesso! Entraremos em contato em breve.</p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
